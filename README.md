@@ -1,33 +1,34 @@
 python-data-viz :
 
 Learning matplotlib from scratch — every major chart type covered with real examples. This was the foundation before moving into seaborn and eventually building real financial dashboards.
+## What's covered
 
-What's covered :
+- Line plots with multiple series
+- Customizing plots — markers, colors, line styles, font sizes
+- Bar charts — vertical and horizontal
+- Histograms — distribution of data with bins
+- Pie charts — with explode, shadow, percentage labels
+- Scatter plots — correlation between two variables with multiple classes
+- Subplots — 2x2 grid layout on one figure
+- Grid lines — making plots easier to read
+- Labels and titles — fonts, colors, weights, tick params
+- pandas + matplotlib — plotting directly from a CSV file
 
-> Line plots with multiple series
-> Customizing plots — markers, colors, line styles, font sizes
-> Bar charts — vertical and horizontal
-> Histograms — distribution of data with bins
-> Pie charts — with explode, shadow, percentage labels
-> Scatter plots — correlation between two variables with multiple classes
-> Subplots — 2x2 grid layout on one figure
->Grid lines — making plots easier to read
-> Labels and titles — fonts, colors, weights, tick params
-> pandas + matplotlib — plotting directly from a CSV file
+## Files
 
+| File | What it does |
+|---|---|
+| `getting_started.py` | First line plot — simple x/y with numpy arrays |
+| `customizing_plot.py` | Multi-line plot with custom markers, colors, line styles |
+| `lables.py` | Titles, axis labels, fonts, colors, tick parameters |
+| `grid_lines.py` | Adding reference grid lines to plots |
+| `barchart.py` | Vertical bar chart — food consumption by category |
+| `Histogram.py` | Exam score distribution with normal distribution data |
+| `piechart.py` | Student year breakdown with explode and shadow |
+| `scatter_graph.py` | Study hours vs test scores — two classes compared |
+| `subplots.py` | 2x2 subplot grid — linear, quadratic, cubic, quartic |
+| `mat+pandas.py` | Reading a CSV with pandas and plotting directly |
 
-Files
-File                                  What it does
-getting_started.py	           First line plot — simple x/y with numpy arrays
-customizing_plot.py            Multi-line plot with custom markers, colors, line styles
-lables.py	                     Titles, axis labels, fonts, colors, tick parameters
-grid_lines.py               	 Adding reference grid lines to plots
-barchart.py	                   Vertical bar chart — food consumption by category
-Histogram.py                 	 Exam score distribution with normal distribution data
-piechart.py	                   Student year breakdown with explode and shadow
-scatter_graph.py	             Study hours vs test scores — two classes compared
-subplots.py	                   2x2 subplot grid — linear, quadratic, cubic, quartic
-mat+pandas.py	               Reading a CSV with pandas and plotting directly
 
 Stack :
 Python, matplotlib, numpy, pandas
